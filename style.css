@@ -24,7 +24,7 @@ float: left;
 border-radius: 15px 50px;
 box-shadow: 20px 20px;
 }
- li:hover {
+  nav li:hover {
   animation-delay: 2s;
   height: 100px;
 }
@@ -94,25 +94,32 @@ p {
   font-size: 22pt;
   color: blue;
 }
-
+.contacth3 {
+  background: white;
+  color: black;
+  font-size: 20pt;
+  width: 200px;
+}
 .firstcontacts {
   color: white;
   position: absolute;
   padding-left: 40%;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 .contact  {
-  background-color: gray;
+  background-color: black;
+  height: 150px;
+  font-size: 17pt;
   list-style: none;
+  padding-top: 1em;
 }
-.secondcontacts ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  position: absolute;
+.secondcontactsdiv ul {
   padding-top: 25%;
-
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
+
 .first ul{
   font-size: 18pt;
   color: blue;
