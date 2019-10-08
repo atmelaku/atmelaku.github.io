@@ -67,6 +67,7 @@ h2{
   width: 700px;
   height: 320px;
   border-radius: 50%;
+  border: 10px solid black;
 }
 .body h2 {
   font-style: italic;
@@ -83,16 +84,21 @@ h2{
 }
 h3{
   font-size: 25pt;
-  color: white;
-  background-color: lightblue;
+  color: blue;
+  background-color: lightpink;
   width: 600px;
-  color: green;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 5px;
   border-radius: 25px;
 }
 p {
   background-image: url(assets/imagesbackground.jpeg);
   font-size: 22pt;
   color: blue;
+  padding-left: 1em;
+  padding-right: 1em;
+
 }
 .contacth3 {
   background: white;
