@@ -139,3 +139,7 @@ p {
  .firstfaver, .secondfaver{
   column-count: 2;
 }
+  article .knowladge li {
+  background: lightgray;
+  border-radius: 20px 50px;
+}
