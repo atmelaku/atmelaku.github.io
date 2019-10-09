@@ -14,8 +14,13 @@ body {
   padding-left: 3em;
   padding-right: 3em;
 }
+header{
+  background: #443737;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+}
 header .headerh1  {
-  background: #000000;
+
   color: white;
   font-size: 50pt;
   text-align: center;
@@ -26,7 +31,6 @@ header .headerh1  {
 }
 
 header ul {
-  background: #443737;
   display: flex;
   justify-content: center;
   align-items: center;
