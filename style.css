@@ -14,13 +14,15 @@ body {
   padding-left: 3em;
   padding-right: 3em;
 }
-header  {
+header .headerh1  {
   background: #F1D4D4;
-  height: 15%;
+  height: 100px;
+
+
 }
 
 header ul {
-
+  background: #F1D4D4;
   display: flex;
   justify-content: center;
   align-items: center;
