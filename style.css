@@ -15,14 +15,18 @@ body {
   padding-right: 3em;
 }
 header .headerh1  {
-  background: #F1D4D4;
+  background: #000000;
+  color: white;
+  font-size: 50pt;
+  text-align: center;
+  padding-top: 20px;
   height: 100px;
 
 
 }
 
 header ul {
-  background: #F1D4D4;
+  background: #443737;
   display: flex;
   justify-content: center;
   align-items: center;
