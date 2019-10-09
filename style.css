@@ -125,12 +125,11 @@ p {
   color: black;
   font-size: 20pt;
   width: 200px;
+  margin: auto;
 }
 .firstcontacts {
   color: white;
-  position: absolute;
-  padding-left: 40%;
-  padding-top: 5%;
+
 }
 .contact  {
   background-color: black;
@@ -138,12 +137,18 @@ p {
   font-size: 17pt;
   list-style: none;
   padding-top: 1em;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  top: 200px;
 }
+
 .secondcontactsdiv ul {
-  padding-top: 25%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
+  padding: 0;
 }
 .first ul{
   display: flex;
