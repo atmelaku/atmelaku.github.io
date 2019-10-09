@@ -18,6 +18,16 @@ header  {
   background: #F1D4D4;
   height: 15%;
 }
+
+header ul {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
 header   li  {
 background-color: blue;
 display: flex;
@@ -28,15 +38,18 @@ width: 200px;
 font-size: 25px;
 float: left;
 border-radius: 15px 50px;
-box-shadow: 20px 20px;
 }
+
+header   li  a{
+text-align: center;
+}
+
   nav li:hover {
   animation-delay: 2s;
   height: 100px;
 }
 nav {
   display: block;
-  height: 15vh;
 }
 nav li a {
   height: 100px;
