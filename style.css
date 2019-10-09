@@ -8,9 +8,15 @@ html{
   box-sizing: inherit;
 }
 body {
-  height: 1400px;
+  border-color: #DB2D43 #EAC100 #DF0E62 #6927FF ;
+  border-style: double;
+  border-width: 1em;
   padding-left: 3em;
   padding-right: 3em;
+}
+header  {
+  background: #F1D4D4;
+  height: 15%;
 }
 header   li  {
 background-color: blue;
@@ -56,7 +62,7 @@ h2{
   align-items: center;
   color: red;
   font-weight: bold;
-  background-color: orange;
+  background-color: #010101;
   height: 60px;
   font-size: 30pt;
   padding-top: 0px;
@@ -70,8 +76,9 @@ h2{
   border: 10px solid black;
 }
 .body h2 {
+  background: #010101;
   font-style: italic;
-  color: blue;
+  color: #C70039;
   animation-delay: 3s;
   cursor: move;
   height: 100px;
@@ -93,7 +100,7 @@ h3{
   border-radius: 25px;
 }
 p {
-  background-image: url(assets/imagesbackground.jpeg);
+  background: #E3C4A8;
   font-size: 22pt;
   color: blue;
   padding-left: 1em;
@@ -125,10 +132,11 @@ p {
   justify-content: space-around;
   list-style: none;
 }
-
 .first ul{
-  font-size: 18pt;
-  color: blue;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25pt;
+  color: #05004E;
   list-style: none;
   text-align: center;
 }
@@ -154,7 +162,7 @@ p {
   justify-content: space-between;
 }
   article .knowladge li {
-  background: lightgray;
+  background: #BD83CE;
   border-radius: 20px 50px;
 }
 .contact-section{
