@@ -155,10 +155,10 @@ p {
 .contact {
   background-color: black;
   height: 150px;
-  font-size: 17pt;
+  font-size: 14pt;
   list-style: none;
   padding-top: 1em;
-  width: 350px;
+  width: 290px;
   padding: 10px;
   margin: auto;
   position: relative;
@@ -244,8 +244,12 @@ p {
     flex-direction: column;
   }
   .contact{
-    float: right;
+    align-items: flex-start;
+    top: 70px;
+    left: 150px;
     font-size: 8pt;
+    width: 180px;
+    height: 60px;
 
   }
 h3,  .first img {
@@ -287,5 +291,8 @@ h3,  .first img {
 }
 .contact-section {
   width: 90%;
+}
+.contacth3 h3 {
+  bottom: 30px
 }
 }
