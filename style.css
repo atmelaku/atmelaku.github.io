@@ -158,9 +158,9 @@ p {
   font-size: 17pt;
   list-style: none;
   padding-top: 1em;
-  width: 40%;
-  margin: auto;
+  width: 350px;
   padding: 10px;
+  margin: auto;
   position: relative;
   top: 200px;
 }
@@ -190,6 +190,7 @@ p {
 }
 
 .firstfavor {
+  background: #E3C4A8;
   display: flex;
   justify-content: space-between;
 }
@@ -203,6 +204,7 @@ p {
 }
 
 .secondfavor {
+  background: #E3C4A8;
   display: flex;
   justify-content: space-between;
 }
