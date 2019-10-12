@@ -26,7 +26,7 @@ header {
 header .headerh1 {
   color: white;
   font-size: 50pt;
-  font-family:monospace;
+  font-family: monospace;
   text-align: center;
   padding-top: 20px;
   height: 100px;
@@ -51,10 +51,6 @@ header li {
   border-radius: 15px 50px;
 }
 
-header li a {
-  text-align: center;
-}
-
 nav li:hover {
   animation-delay: 2s;
   height: 100px;
@@ -65,24 +61,22 @@ nav {
 }
 
 nav li a {
+  text-align: center;
   height: 100px;
   width: 200px;
   padding-top: 25px;
   text-transform: uppercase;
+  color: white;
+  text-decoration: none;
 }
 
-header nav li:hover {
-  background-color: green;
+header nav li a:hover {
+  background-color: #200F21;
   float: left;
 }
 
-header nav li:active {
+header nav li a:active {
   background-color: red;
-}
-
-li a {
-  color: white;
-  text-decoration: none;
 }
 
 h2 {
@@ -225,72 +219,87 @@ p {
   padding-top: 5px;
   border-radius: 25px;
 }
+
 @media only screen and (max-width: 900px) {
-  body{
+  body {
     background: lightgray;
   }
+
   header .headerh1 {
     font-size: 25pt;
   }
+
   nav li {
     font-size: 14pt;
     width: 150px;
     height: 75px;
   }
+
   .body h2 {
     font-size: 25pt;
     padding-left: 20px;
   }
-  .secondcontactsdiv ul{
+
+  .secondcontactsdiv ul {
     flex-direction: column;
   }
-  .contact{
+
+  .contact {
     align-items: flex-start;
     top: 70px;
     left: 150px;
     font-size: 8pt;
     width: 180px;
     height: 60px;
-
   }
-h3,  .first img {
-    width: 90%;
 
-}
- h3{
-   font-size: 15pt;
- }
-.knowladge li {
-  font-size: 12pt;
-}
-.firstfavor  {
-  flex-direction: column;
-}
-.firstfavor p {
-  font-size: 17pt;
-  height: 400px;
-  width: 300px;
-}
-.firstfavor img {
-  height: 200px;
-  width: 300px;
-}
- h2 {
-  font-size: 20pt;
-}
-.secondfavor  {
-  flex-direction: column;
-}
-.secondfavor p {
-  font-size: 18pt;
-  height: 400px;
-  width: 300px;
-}
-.secondfavor img {
-  height: 200px;
-  width: 300px;
-}
-.contact-section {
-  width: 90%;
-}
+  h3, .first img {
+    width: 90%;
+  }
+
+  h3 {
+    font-size: 15pt;
+  }
+
+  .knowladge li {
+    font-size: 12pt;
+  }
+
+  .firstfavor {
+    flex-direction: column;
+  }
+
+  .firstfavor p {
+    font-size: 17pt;
+    height: 400px;
+    width: 300px;
+  }
+
+  .firstfavor img {
+    height: 200px;
+    width: 300px;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  .secondfavor {
+    flex-direction: column;
+  }
+
+  .secondfavor p {
+    font-size: 18pt;
+    height: 400px;
+    width: 300px;
+  }
+
+  .secondfavor img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .contact-section {
+    width: 90%;
+  }
 }
