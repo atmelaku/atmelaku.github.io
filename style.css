@@ -7,6 +7,7 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  padding: 0;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 header {
-  background: #443737;
+  background-image: linear-gradient(green, yellow, red);
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
 }
@@ -26,6 +27,7 @@ header {
 header .headerh1 {
   color: white;
   font-size: 50pt;
+  font-family:monospace;
   text-align: center;
   padding-top: 20px;
   height: 100px;
@@ -291,8 +293,5 @@ h3,  .first img {
 }
 .contact-section {
   width: 90%;
-}
-.contacth3 h3 {
-  bottom: 30px
 }
 }
