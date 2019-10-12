@@ -37,7 +37,7 @@ header ul {
 }
 
 header li {
-  background-color: blue;
+  background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,8 +133,7 @@ p {
   background: #E3C4A8;
   font-size: 22pt;
   color: blue;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 2rem;
 }
 
 .contacth3 {
@@ -223,7 +222,12 @@ p {
   padding-top: 5px;
   border-radius: 25px;
 }
-
+footer p {
+  background-color: inherit;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
 @media only screen and (max-width: 900px) {
   body {
     background: lightgray;
