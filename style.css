@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-image: url(assets/green-background.jpeg);
+  background-image: url(assets/htmlbachground.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -10,9 +10,6 @@ html {
 }
 
 body {
-  border-color: #DB2D43 #EAC100 #DF0E62 #6927FF;
-  border-style: double;
-  border-width: 1em;
   padding-left: 3em;
   padding-right: 3em;
 }
