@@ -123,9 +123,6 @@ h2:hover {
 .first p:hover{
   padding-left: 40px;
 }
-.secondfavor p:hover{
-  padding-bottom: 40px;
-}
 h3 {
   font-size: 25pt;
   color: blue;
@@ -169,7 +166,7 @@ p {
   padding: 10px;
   margin: auto;
   position: relative;
-  top: 200px;
+  top: 150px;
 }
 
 .secondcontactsdiv ul {
@@ -178,7 +175,11 @@ p {
   list-style: none;
   padding: 0;
 }
-
+.secondcontactsdiv li img {
+  border: solid 2px red;
+  width: 50%;
+  height: 50%;
+}
 .first ul {
   display: flex;
   justify-content: space-between;
@@ -270,7 +271,7 @@ footer p {
     height: 60px;
   }
 
-  h3, .first img {
+ .first img {
     width: 90%;
   }
 
