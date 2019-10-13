@@ -131,7 +131,7 @@ h3 {
 
 p {
   background: #E3C4A8;
-  font-size: 22pt;
+  font-size: 22px;
   color: blue;
   padding: 2rem;
 }
@@ -180,11 +180,11 @@ p {
 }
 
 .firstfavor img {
-  width: 30%;
+  width: 40%;
 }
 
 .firstfavor p {
-  width: 70%;
+  width: 60%;
 }
 
 .firstfavor {
@@ -194,11 +194,11 @@ p {
 }
 
 .secondfavor img {
-  width: 30%;
+  width: 40%;
 }
 
 .secondfavor p {
-  width: 70%;
+  width: 60%;
 }
 
 .secondfavor {
@@ -274,11 +274,14 @@ footer p {
   }
 
   .firstfavor {
+    background: 2px;
+    align-items: center;
+
     flex-direction: column;
   }
 
   .firstfavor p {
-    font-size: 17pt;
+    font-size: 20px;
     height: 400px;
     width: 300px;
   }
@@ -293,6 +296,8 @@ footer p {
   }
 
   .secondfavor {
+    background: 2px;
+    align-items: center;
     flex-direction: column;
   }
 
