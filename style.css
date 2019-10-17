@@ -5,7 +5,9 @@ html {
   background-repeat: no-repeat;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
