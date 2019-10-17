@@ -15,7 +15,8 @@ body {
 }
 
 header {
-  background-image: linear-gradient(green, yellow, red);
+  background-image: radial-gradient(green, blue, orange, brown, yellow, red, brown);
+  background-image: linear-gradient(green, blue, orange, brown, yellow, red);
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
 }
