@@ -87,7 +87,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: red;
+  color: #52DE97;
   width: 50%;
   font-weight: bold;
   background-color: #010101;
@@ -113,7 +113,7 @@ h2:hover {
 .body h2 {
   background: #010101;
   font-style: italic;
-  color: #C70039;
+  color: white;
   animation-delay: 3s;
   cursor: move;
   height: 100px;
@@ -135,6 +135,10 @@ h2:hover {
   padding-left: 40px;
 }
 
+p a:hover {
+  color: white;
+  background: #1d2c4e;
+}
 h3 {
   font-family: sans-serif;
   font-size: 25pt;
@@ -148,13 +152,15 @@ h3 {
 }
 
 p {
-  background: #E3C4A8;
+  background: #1d2c4e;
   font-size: 22px;
   font-family: monospace;
-  color: blue;
+  color: white;
   padding: 2rem;
 }
-
+p a {
+  color: red;
+}
 .contacth3 {
   background: white;
   color: black;
