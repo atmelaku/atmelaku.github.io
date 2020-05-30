@@ -6,43 +6,68 @@
   <title>ALEBACHEW</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script defer src="script.js"></script>
+
 </head>
 
 <body>
-  <header>
-    <h1 class="headerh1">ALEBACHEW MELAKU</h1>
-    <nav>
-      <ul>
+  <header class="header-navs">
+    <nav class="nav">
+      <button id="btn"> 🞬 </button>
+      <ul class="navbar">
+
         <li><a class="top" href="index.html">Home</a></li>
         <li><a class="top" href="about-me.html">About me</a></li>
         <li><a class="top" href="resume.html">Resume</a></li>
         <li><a class="top" href="projects.html">Projects</a></li>
-        <li><a class="top" href="faverthings.html">favorites</a></li>
+        <li><a class="top" href="favorite.html">favorites</a></li>
         <li><a class="top" href="contact.html">contact</a></li>
 
       </ul>
     </nav>
   </header>
-  <section class="body">
-    <h2>HI, Welcome! My Name is Alebachew Melaku</h2>
-    <p>I am a student at Thaddeus Stevens College of Technology for website developer and now I am designing my personal website after I got some knowledge About
-      Html and CSS. So, if you click the above links you will get my detial information including my personal biography, my projects, resume, and contact information. So, <strong>feel free to look around all of my links.</strong>
-    </p>
-  </section>
-  <footer class="firstcontacts">
+  <hr>
+  <main class="main main--index">
+    <div class="photo">
+      <img class="mee" src="assets/me.jpg" width="150px" height="150px" alt="Me">
+    </div>
+    <div class="intro">
+      <h2>Hi, Welcome! My Name is Alebachew Melaku</h2>
+      <p>I am a student at Thaddeus Stevens College of Technology for Software Developer.
+        This is my personal website that I designed it using Html, Css and Javascript.
+        So, if you click the above links you will get my detial information including my
+        personal biography, my projects, resume, and contact information. <strong>Feel free to look around all of my links.</strong>
+      </p>
+    </div>
+    <div class="next-page">
+      <a href="about-me.html">about-me ==></a>
+    </div>
+  </main>
+  <footer class="contacts">
     <h3 class="contacth3">Contact me</h3>
-      <ul class="contact">
-        <li>alebachewtegegne2017@yahoo.com</li>
-        <li>atmelaku181@stavenscollege.edu</li>
-        <li>857-302-9778</li>
-      </ul>
-      <div class="secondcontactsdiv">
-        <ul>
-          <li><a href="https://www.facebook.com/alebachew.tegegne.9"><img src="assets/smallfb.png" alt="facebook" /></a></li>
-          <li><a href="https://www.instagram.com/tegegnealebachew/"><img src="assets/insta.png" alt="insagram" /></a></li>
+    <div class="footer">
+      <div class="adresses">
+
+        <ul class="contact">
+          <h3>Email and Phone Numbers</h3>
+          <li>alebachewtegegne2017@yahoo.com</li>
+          <li>atmelaku181@stavenscollege.edu</li>
+          <li>857-302-9778</li>
         </ul>
       </div>
-      <p>Copyright © 2019 Alebachew Tegegne Melaku</p>
+      <div class="socialMediaContact">
+        <h3 class="smedia">Social Media</h3>
+        <ul class="socialMediaContact">
+
+          <li><a href="https://github.com/atmelaku"> <img id="github"src="assets/github-mark.png" width="60px" alt="GitHub">GitHub</a></li>
+          <li><a href="https://www.facebook.com/alebachew.tegegne.9"><img id="fb" src="assets/fabook.jpg" width="35px" alt="facebook" />facebook</a></li>
+          <li><a href="https://www.instagram.com/tegegnealebachew/"><img id="igram"src="assets/insta.png" width="35px" alt="insagram" />insagram</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <p class="Copyright">Copyright © 2019 Alebachew Tegegne Melaku</p>
   </footer>
 </body>
 
