@@ -235,41 +235,38 @@ div.More-link a {
    justify-content: space-between;
    clear: both;
  }
-}
+ button {
+   display: block;
+   padding: 2vw;
+   font-size: 3vh;
+   background-color: #AFE0FF;
+   border: none;
+   outline: none;
+   cursor: pointer;
+ }
 
-@media only screen and (max-width: 500px) {
-  button {
-    display: block;
-    padding: 2vw;
-    font-size: 3vh;
-    background-color: #AFE0FF;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
+ ul {
+   flex-direction: column;
+ }
 
-  ul {
-    flex-direction: column;
-  }
+ li {
+   margin: 0;
+ }
 
-  li {
-    margin: 0;
-  }
-
-  a {
-    display: block;
-  }
-  .project {
-    padding: 2rem;
-    float: left;
-    width: 100%;
-  }
+ a {
+   display: block;
+ }
+ .project {
+   padding: 2rem;
+   float: left;
+   width: 100%;
+ }
 
 
-  .projects:after {
-    content: "";
-    display: flex;
-    justify-content: space-between;
-    clear: both;
-  }
+ .projects:after {
+   content: "";
+   display: flex;
+   justify-content: space-between;
+   clear: both;
+ }
 }
