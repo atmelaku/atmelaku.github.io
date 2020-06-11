@@ -1,4 +1,17 @@
+const pEl = document.getElementById("adress");
+const imgEl = document.getElementById("imag");
 
+
+const textShow = () => {
+  pEl.style.color = "#ffb850";
+
+}
+const texthid = () => {
+  pEl.style.color = "white";
+
+}
+imgEl.addEventListener("mousemove", textShow);
+imgEl.addEventListener("mouseout", texthid);
 /* only execute this script when the document is ready */
 $(document).ready(function(){
   /* function called when you click of the button */
@@ -74,19 +87,3 @@ el.addEventListener('mousedown', function() {
 el.addEventListener('mouseup', function() {
   el.style.transform = 'perspective(500px) scale(1.1) rotateX(0) rotateY(0)'
 })
-
-
-
-
-
-var defaultText = "Search..."; var searchBox = document.getElementById("search");
-//default text after load
-searchBox.value = defaultText;
-//on focus behaviour
-searchBox.onfocus = function() { if (this.value == defaultText) {
-  //clear text field
-this.value = ''; } }
-//on blur behaviour
-searchBox.onblur = function() { if (this.value == "") {
-  //restore default text
-this.value = defaultText; } }

@@ -207,7 +207,9 @@ ul.contact li {
  height: 50px;
 }
 
-
+div.More-link a {
+ color: #ffb850;
+}
 
 @media only screen and (max-width: 900px) {
  div ul.socialMediaContact {
