@@ -4,11 +4,13 @@ const imgEl = document.getElementById("imag");
 
 const textShow = () => {
   pEl.style.color = "#ffb850";
+  
   imgEl.style.border = "solid red"
 
 }
 const texthid = () => {
   pEl.style.color = "white";
+
   imgEl.style.border = "solid #ffb850"
 
 }
