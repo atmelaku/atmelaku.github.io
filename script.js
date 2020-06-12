@@ -4,14 +4,19 @@ const imgEl = document.getElementById("imag");
 
 const textShow = () => {
   pEl.style.color = "#ffb850";
+  imgEl.style.border = "solid red"
 
 }
 const texthid = () => {
   pEl.style.color = "white";
+  imgEl.style.border = "solid #ffb850"
 
 }
 imgEl.addEventListener("mousemove", textShow);
 imgEl.addEventListener("mouseout", texthid);
+
+
+
 /* only execute this script when the document is ready */
 $(document).ready(function(){
   /* function called when you click of the button */
