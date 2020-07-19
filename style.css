@@ -195,6 +195,15 @@ ul.socialMediaContact li a {
 ul.contact li {
   font-size: 1rem;
 }
+.con-contacts {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+.con-contacts li {
+  text-align: center;
+  background-color: black;
+  width: 30rem;
+}
 
 .smedia {
   margin-left: 40vw;
@@ -287,6 +296,17 @@ div.More-link a {
  }
  img.mee {
   float: none;
+
+ }
+ .con-contacts {
+
+   padding-left: 0rem;
+ }
+
+ .con-contacts li {
+
+
+   width: 20rem;
 
  }
 }

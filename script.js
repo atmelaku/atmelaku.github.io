@@ -31,6 +31,7 @@ const textShow = () => {
 }
 const texthid = () => {
   pEl.style.color = "white";
+  pEl.style.visibility = "hidden";
 
   imgEl.style.border = "solid #ffb850"
 
