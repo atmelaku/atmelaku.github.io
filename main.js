@@ -1,39 +1,62 @@
-// get the element first
-const imgme = document.getElementById("mee");
-const mainEl = document.querySelector('main')
-const parEl = document.getElementById("Copyright");
-parEl.style.color = "blue";
+// // get the element first
+// const imgme = document.getElementById("mee");
+// const mainEl = document.querySelector('main')
+// const parEl = document.getElementById("Copyright");
+// parEl.style.color = "blue";
+//
+// // hover effect on the picture
+//
+// function show_image(src) {
+//
+//   const img = document.createElement("img");
+//   imgme.style.border = "solid red"
+//   img.src = "assets/github-mark.png";
+//
+//   imgme.appendChild(img);
+// }
+//
+// imgme.addEventListener("mousemove", show_image )
+// // random background color
+//
+// mainEl.style.backgroundColor = "red";
+//
+// const newp = document.createElement("button");
+// const text = document.createTextNode("changeBgColor");
+//
+// newp.appendChild(text)
+// mainEl.appendChild(newp);
+// //
+// // function random(number) {
+//
+//   return Math.floor(Math.random() * (number+1));
+//    }
+//
+// newp.onclick = function() {
+//
+//   const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+//   document.body.style.backgroundColor = rndCol;
+//    }
+   const pEl = document.getElementById("adress");
+   pEl.style.visibility = "hidden";
+   const imgEl = document.getElementById("imag");
 
-// hover effect on the picture
 
-function show_image(src) {
+   const textShow = () => {
+     pEl.style.color = "#ffb850";
+     pEl.style.visibility = "visible";
 
-  const img = document.createElement("img");
-  imgme.style.border = "solid red"
-  img.src = "assets/github-mark.png";
 
-  imgme.appendChild(img);
-}
+     imgEl.style.border = "solid red"
 
-imgme.addEventListener("mousemove", show_image )
-// random background color
-
-mainEl.style.backgroundColor = "red";
-
-const newp = document.createElement("button");
-const text = document.createTextNode("changeBgColor");
-
-newp.appendChild(text)
-mainEl.appendChild(newp);
-
-function random(number) {
-
-  return Math.floor(Math.random() * (number+1));
    }
+   const texthid = () => {
+     pEl.style.color = "white";
+     pEl.style.visibility = "hidden";
 
-newp.onclick = function() {
+     imgEl.style.border = "solid #ffb850"
 
-  const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.body.style.backgroundColor = rndCol;
    }
+   imgEl.addEventListener("mousemove", textShow);
+   imgEl.addEventListener("mouseout", texthid);
+
 // moving the text

@@ -15,26 +15,3 @@ $(document).ready(function(){
     $("li").toggle("slow");
   });
 });
-
-const pEl = document.getElementById("adress");
-pEl.style.visibility = "hidden";
-const imgEl = document.getElementById("imag");
-
-
-const textShow = () => {
-  pEl.style.color = "#ffb850";
-  pEl.style.visibility = "visible";
-
-
-  imgEl.style.border = "solid red"
-
-}
-const texthid = () => {
-  pEl.style.color = "white";
-  pEl.style.visibility = "hidden";
-
-  imgEl.style.border = "solid #ffb850"
-
-}
-imgEl.addEventListener("mousemove", textShow);
-imgEl.addEventListener("mouseout", texthid);
