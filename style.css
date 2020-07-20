@@ -82,7 +82,13 @@ img.mee {
 
 }
 .main--about {
- background-color: #e6fff8;
+ background-color: #F0F8FF;
+
+ color: black;
+}
+.main--favorite {
+ background-color: #F0F8FF;
+
  color: black;
 }
 .km {
@@ -304,7 +310,7 @@ div.More-link a {
  }
 
  .con-contacts li {
-
+   font-size: 18px;
 
    width: 20rem;
 
