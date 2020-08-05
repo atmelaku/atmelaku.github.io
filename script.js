@@ -1,17 +1,21 @@
+const projects = document.querySelector(".projects div");
+console.log(projects);
+const hamburger = document.querySelector(".hamburger");
+const navLinks  = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
 
-/* only execute this script when the document is ready */
-$(document).ready(function(){
-  /* function called when you click of the button */
-  $(".button").click(function(){
 
-      /* this if else to change the text in the button */
-      if($(".button").text() == "☰"){
-       $(".button").text("X");
-      }else{
-        $(".button").text("☰");
-      }
-
-    /* this function toggle the visibility of our "li" elements */
-    $("li").toggle("slow");
-  });
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  })
+  
 });
+// projects.addEventListener("mouseover", () => {
+//   projects.style.background = "green";
+// })
+
+// projects.addEventListener("mouseout", () => {
+//   projects.style.background = "white";
+// })

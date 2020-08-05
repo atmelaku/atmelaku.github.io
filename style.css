@@ -21,7 +21,7 @@ li {
   font-size: 3vh;
 }
 
-nav ul li a {
+/* nav ul li a {
   text-decoration: none;
   padding: 2vw;
   color: white;
@@ -42,31 +42,27 @@ nav ul {
   display: flex;
 }
 
+
+
+
+.button {
+  display: none;
+} */
+p {
+  line-height: 50px;;
+}
 body {
   margin: 0;
   line-height: normal;
 
 }
-p {
-  line-height: 50px;;
-}
-
-.button {
-  display: none;
-}
-div.intro {
-  color: pink;
-
-
-}
 div.intro > h2 {
-font-family: monospace;
 font-size: 2rem;
 
 }
 img.mee {
-  width:150px;
-  height:300px;
+  width:200px;
+  height:200px;
   box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
  float: left;
  border-radius: 50%;
@@ -79,6 +75,9 @@ img.mee {
  background-color: #1d2c4e;
  color: white;
  font-size: 25px;
+ margin: 3rem;
+ padding: 40px;
+  
 
 }
 .main--about {
@@ -165,7 +164,7 @@ div.footer {
 footer.contacts {
   position: relative;
   width: 100%;
-  background: #43464B;
+  background: #000000;
   bottom: -220px;
   color: white;
   font-size: 1rem;
@@ -202,14 +201,16 @@ ul.contact li {
   font-size: 1rem;
 }
 .con-contacts {
-  padding-left: 20rem;
-  padding-right: 20rem;
+  display: none;
+  
 }
 .con-contacts li {
   text-align: center;
   background-color: black;
   width: 30rem;
+  
 }
+
 
 .smedia {
   margin-left: 40vw;
@@ -240,6 +241,25 @@ div.More-link a {
 }
 
 @media only screen and (max-width: 900px) {
+ 
+ /* .button {
+   display: inline;
+   padding: 2vw;
+   font-size: 3vh;
+   background-color: #AFE0FF;
+   border: none;
+   outline: none;
+   cursor: pointer;
+ }
+
+ ul {
+   flex-direction: column;
+ } */
+
+ /* li {
+   margin: 0;
+ }
+  */
  div ul.socialMediaContact {
    display: block;
    position: relative;
@@ -251,10 +271,10 @@ div.More-link a {
    left: -140px;
  }
  .project {
-   padding: 2rem;
-   float: left;
-   width: 50%;
- }
+  padding: 2rem;
+  float: left;
+  width: 100%;
+}
 
 
  .projects:after {
@@ -262,23 +282,6 @@ div.More-link a {
    display: flex;
    justify-content: space-between;
    clear: both;
- }
- .button {
-   display: block;
-   padding: 2vw;
-   font-size: 3vh;
-   background-color: #AFE0FF;
-   border: none;
-   outline: none;
-   cursor: pointer;
- }
-
- ul {
-   flex-direction: column;
- }
-
- li {
-   margin: 0;
  }
 
  a {
@@ -314,5 +317,11 @@ div.More-link a {
 
    width: 20rem;
 
+ }
+ footer.contacts {
+   background-color: #000000;
+ }
+ img.mee {
+   float: right;
  }
 }

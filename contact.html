@@ -6,24 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=.4">
   <title>ALEBACHEW</title>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="var.css">
   <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script defer src="script.js"></script>
   <script defer src="main.js"></script>
 
 </head>
 
 <body>
-  <header>
+  <header class="header-navs">
     <nav>
-      <button id="btn" class="button"> 🞬 </button>
-      <ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="navbar nav-links">
         <li><a class="top" href="index.html">Home</a></li>
         <li><a class="top" href="about-me.html">About me</a></li>
         <li><a class="top" href="resume.html">Resume</a></li>
         <li><a class="top" href="projects.html">Projects</a></li>
         <li><a class="top" href="favorite.html">favorites</a></li>
-        <li><a class="top" href="contact.html">contact</a></li>
+        <li><a id="cont"class="top" href="contact.html">contact</a></li>
       </ul>
     </nav>
   </header>
@@ -31,7 +35,6 @@
   <main class="main main--contact">
     <h2 class="contact-section">contact information</h2>
     <div class="home">
-      <h4>Alebachew Melaku</h4>
       <img id="imag"src="assets/home-img.png" alt="home">
       <p id="adress">2144 Hollinger Road Lancaster, PA 17602</p>
     </div>

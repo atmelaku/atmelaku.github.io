@@ -36,7 +36,7 @@
 //   const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 //   document.body.style.backgroundColor = rndCol;
 //    }
-   const pEl = document.getElementById("adress");
+const pEl = document.getElementById("adress");
    pEl.style.visibility = "hidden";
    const imgEl = document.getElementById("imag");
 
@@ -60,3 +60,4 @@
    imgEl.addEventListener("mouseout", texthid);
 
 // moving the text
+   
