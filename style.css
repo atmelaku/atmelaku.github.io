@@ -11,14 +11,18 @@ html {
 }
 
 main, footer {
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 li {
   list-style-type: none;
   margin: 2vw 0;
   font-size: 3vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
 }
 
 /* nav ul li a {
@@ -73,16 +77,24 @@ img.mee {
  cursor: pointer;
 }
 .main {
- background-color: #1d2c4e;
+ background: #708090;
  color: white;
  font-size: 25px;
+ padding: 7rem;
  margin: 3rem;
- padding: 40px;
+ border-radius: 5%;
+}
+.main--index:hover {
+  background: #B0C4DE;
+  color: black;
 
 }
+
 .main-projects {
   color: black;
   background: none;
+  margin: 0px;
+  padding: 10px;
 }
 .main--about {
  background-color: #F0F8FF;
@@ -284,6 +296,9 @@ footer {
 .main-projects {
   color: black;
   background: none;
+
+  padding: 0px;
+  margin: 0px;
 }
 div.city img, div.church img {
   float: none;
@@ -303,19 +318,6 @@ div.city img, div.church img {
  .smedia {
    position: relative;
    left: -140px;
- }
- .project {
-  padding: 2rem;
-  float: left;
-  width: 100%;
-}
-
-
- .projects:after {
-   content: "";
-   display: flex;
-   justify-content: space-between;
-   clear: both;
  }
 
  a {
