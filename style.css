@@ -283,6 +283,7 @@ iframe {
 }
 
 .main {
+  padding: 0px;
   padding-left: 4px;
   font-size: 18px;
   margin: auto;
