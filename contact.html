@@ -3,28 +3,38 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
   <title>ALEBACHEW</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link  rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="var.css">
   <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+
   <script defer src="script.js"></script>
+  <script defer src="main.js"></script>
+
+
 </head>
 
 <body>
-  <header>
+  <header class="header-navs">
     <nav>
-      <button id="btn"> 🞬 </button>
-      <ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="navbar nav-links">
         <li><a class="top" href="index.html">Home</a></li>
-        <li><a class="top" href="about-me.html">About me</a></li>
         <li><a class="top" href="resume.html">Resume</a></li>
         <li><a class="top" href="projects.html">Projects</a></li>
-        <li><a class="top" href="favorite.html">favorites</a></li>
-        <li><a class="top" href="contact.html">contact</a></li>
+        <li><a id="cont"class="top" href="contact.html">contact</a></li>
       </ul>
     </nav>
   </header>
-  <hr>
 
   <main class=" main--contact">
     <h2 class="contact-section">contact me</h2>
