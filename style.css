@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  html {
    box-sizing: border-box;
    background-color: #ffff;
@@ -96,7 +96,7 @@ div.church img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-=======
+}
 html {
   box-sizing: border-box;
   background-color: brown;
