@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* only execute this script when the document is ready */
 $(document).ready(function(){
@@ -91,3 +92,26 @@ this.value = ''; } }
 searchBox.onblur = function() { if (this.value == "") {
   //restore default text
 this.value = defaultText; } }
+=======
+const projects = document.querySelector(".projects div");
+console.log(projects);
+const hamburger = document.querySelector(".hamburger");
+const navLinks  = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  })
+  
+});
+// projects.addEventListener("mouseover", () => {
+//   projects.style.background = "green";
+// })
+
+// projects.addEventListener("mouseout", () => {
+//   projects.style.background = "white";
+// })
+>>>>>>> f92797cbbe7d0d7950b6dce98f6029d7c7cd8d3e
