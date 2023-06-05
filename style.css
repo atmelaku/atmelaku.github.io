@@ -1,3 +1,102 @@
+<<<<<<< HEAD
+ html {
+   box-sizing: border-box;
+   background-color: #ffff;
+   background-size: cover;
+ }
+
+ *,
+ *::before,
+ *::after {
+   box-sizing: inherit;
+ }
+
+ main, footer {
+   padding-left: 3em;
+   padding-right: 3em;
+ }
+
+ li {
+   list-style-type: none;
+   margin: 2vw 0;
+   font-size: 3vh;
+ }
+
+ nav ul li a {
+   text-decoration: none;
+   padding: 2vw;
+   color: white;
+ }
+
+ nav ul li a:hover {
+   background-color: #ffb850;
+ }
+
+ nav {
+   width: 100vw;
+   background-color: #43464B;
+ }
+
+ nav ul {
+   margin: 0;
+   padding: 0;
+   display: flex;
+ }
+
+ body {
+   margin: 0;
+ }
+
+ button {
+   display: none;
+ }
+
+div.intro > h2 {
+font-family: monospace;
+font-size: 2rem;
+
+}
+img.mee {
+  float: left;
+  border-radius: 50%;
+}
+.mee:hover {
+  box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+  cursor: pointer;
+}
+.main {
+  background-color: #1d2c4e;
+  color: white;
+  font-size: 25px;
+
+}
+.main--about {
+  background-color: #e6fff8;
+  color: black;
+}
+.km {
+  float: right;
+}
+.next-page a {
+ color: white;
+ background: black;
+ text-decoration: overline;
+}
+.next-page a:hover {
+  background: #ffb850;
+}
+div.city img {
+  float: right;
+}
+div.church img {
+  float: right;
+  height: 200px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+=======
 html {
   box-sizing: border-box;
   background-color: brown;
@@ -210,7 +309,21 @@ div.church img {
 .project a:hover {
  text-decoration: underline;
 
+/* <<<<<<< HEAD
+.project {
+  padding: 2rem;
+  float: left;
+  width: 33%;
 }
+
+
+.projects:after {
+  content: "";
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+=======
+} */
 /* .project:hover {
 background-color: white;
  color: green;
@@ -276,12 +389,132 @@ div ul.socialMediaContact {
   position: absolute;
   align-items: baseline;
 
+
 }
 .project{
   margin-top: 2rem;
   background: #e6fff8;
   font-size: 1.3rem;
 
+
+}
+.project a {
+  text-decoration: none;
+  color: #0645AD;
+}
+.project a:hover {
+  color: #BA0000;
+
+}
+.project:hover {
+  color: green;
+  box-shadow: 0 0 20px rgba(50,50,50,.6);
+}
+h2 {
+  text-align: center;
+}
+.resume {
+  display: flex;
+  justify-content: center;
+}
+
+/*footer */
+
+ div.footer {
+   display: flex;
+   align-content: space-between;
+ }
+
+ footer.contacts {
+   position: relative;
+   width: 100%;
+   background: #43464B;
+   bottom: -220px;
+   color: white;
+   font-size: 1rem;
+ }
+
+ footer.contacts>h3 {
+   text-align: center;
+   padding-top: 2vw;
+ }
+div.adresses ul{
+  display: block;
+  margin-left: 2vw;
+  justify-content: flex-start;
+}
+ div ul.socialMediaContact {
+
+   display: flex;
+   margin-left: 30vw;
+   justify-content: flex-end;
+   position: absolute;
+   align-items: baseline;
+
+ }
+
+ ul.socialMediaContact li a {
+
+
+   color: white;
+   font-size: 14px;
+   text-decoration: none;
+ }
+
+ ul.contact li {
+   font-size: 1rem;
+ }
+
+ .smedia {
+   margin-left: 40vw;
+ }
+
+ .Copyright {
+   text-align: center;
+   padding-bottom: 2vw;
+ }
+.GitHub:hover, .fb:hover, .igram:hover {
+  background: blue;
+}
+
+#github, #fb, #igram {
+  border: solid #ffb850;
+  width: 40px;
+  height: 40px;
+}
+
+#github:hover, #fb:hover, #igram:hover {
+  border: solid red;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  div ul.socialMediaContact {
+    display: block;
+    position: relative;
+    left: -130px;
+
+  }
+  .smedia {
+    position: relative;
+    left: -140px;
+  }
+  .project {
+    padding: 2rem;
+    float: left;
+    width: 50%;
+  }
+
+
+  .projects:after {
+    content: "";
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+  }
 ul.socialMediaContact li a {
 
 
